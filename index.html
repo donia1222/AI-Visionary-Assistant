@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Acme&family=Alata&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<link rel="stylesheet" href="styles.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bot Multifunción</title>
+</head>
+<body>
+<div id="loader" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.6); z-index: 9999; display: flex; justify-content: center; align-items: center;">
+    <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+        <span id="loaderMessage" style="color: white; font-size: 2em;">Loading...</span>
+    </div>
+</div>
+
+
+
+<div class="container">
+    <textarea id="userInput" placeholder="Prompt text or description to generate image."></textarea>
+    <button id="sendMessage">Send Message</button>
+    <button id="generateImage">Generate Image</button>
+    <input type="file" id="imageInput" accept="image/*">  
+<div id="analyzeButtonContainer" style="display: none;">
+    <button id="analyzeImage">Analyze Image</button>
+</div>
+
+
+    <div id="responseArea"></div>
+    <div id="imageDisplayArea"></div>
+</div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+   
+</body>
+</html>

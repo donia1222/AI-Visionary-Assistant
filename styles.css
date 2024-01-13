@@ -1,0 +1,97 @@
+
+    body {
+        font-family: 'Alata', sans-serif;
+        background-color: #313131;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        color: #fff; /* Para mejorar la visibilidad del texto */
+    }
+
+    .container {
+        width: 80%;
+        max-width: 700px;
+        padding: 20px;
+        background-color: #efefef;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    textarea, input[type="file"], button {
+        width: 95%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    button {
+        background-color: #0999a0;
+        color: #fff;
+        cursor: pointer;
+        transition: background-color 0.3s, transform 0.2s;
+        border: none;
+        border-radius: 5px;
+        padding: 12px 20px;
+    }
+
+    button:hover {
+        background-color: #4b4b4b;
+        transform: scale(1.05);
+    }
+
+    #responseArea, #imageDisplayArea {
+        margin-top: 20px;
+        padding: 20px;
+        border: 0px solid #fff0;
+        background-color: #fff0;
+        border-radius: 10px;
+        text-align: left;
+        max-height: 600px;
+        overflow-y: auto;
+        font-family: 'Alata', sans-serif; /* Asegúrate de que la fuente sea coherente */
+        color: #333; /* Color del texto para mejorar la legibilidad */
+    }
+
+    img {
+        width: 95%; /* Se ajustará al 95% del ancho del contenedor */
+        max-width: 600px; /* Un máximo para pantallas grandes */
+        height: auto; /* Se ajustará la altura automáticamente */
+        object-fit: contain; /* La imagen se ajustará dentro de su contenedor sin recortarse */
+        display: block;
+        margin: 20px auto; /* Añade un margen automático para centrar */
+        cursor: pointer;
+        border-radius: 20px;
+    }
+
+    input#imageInput {
+        padding: 10px;
+        background-color: #f3f3f3;
+        border: 2px dashed #0999a0;
+        color: #0999a0;
+        font-size: 16px;
+        text-align: center;
+        display: block;
+        margin: 10px auto;
+        cursor: pointer;
+    }
+
+    textarea {
+        resize: vertical;
+    }
+
+    @media screen and (max-width: 768px) {
+        img {
+            width: 95%; /* Se ajustará al 95% del ancho del contenedor en pantallas más pequeñas */
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        img {
+            width: 100%; /* Ocupará todo el ancho en dispositivos móviles */
+        }
+    }
