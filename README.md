@@ -23,3 +23,5 @@ Generate and Analyze Images: Use the functions for image generation and analysis
 Contributing to the Project
 
 Contributions are welcome. If you have suggestions or want to improve the application, consider sending a pull request or creating an issue.
+
+![Project screenshot](https://app.hundezonen.ch/docs/Captura%20dwe%20pantalla%202024-01-13%20a%20las%2015.50.45.png)
