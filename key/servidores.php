@@ -1,10 +1,10 @@
 <?php
 // servidores.php
 
-// Clave API de OpenAI. Asegúrate de proteger este archivo para no exponer tu clave.
+// OpenAI API key. Make sure you protect this file so you don't expose your key.
 $openai_api_key = 'API-KEY';
 
-// Obtiene la entrada del cuerpo de la solicitud HTTP y decodifica el JSON
+// Get the input from the HTTP request body and decode the JSON
 $inputData = json_decode(file_get_contents('php://input'), true);
 
 if (!$inputData) {
