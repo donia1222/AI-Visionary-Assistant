@@ -2,7 +2,7 @@
 // getAPIKey.php
 
 $openai_api_key = 'API-KEY';
-$knownSecretToken = 'secretToken'; // El mismo token secreto que en tu JavaScript
+$knownSecretToken = 'secretToken'; // The same secret token as in your JavaScript
 
 $inputData = json_decode(file_get_contents('php://input'), true);
 
