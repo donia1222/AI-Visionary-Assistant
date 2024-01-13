@@ -10,10 +10,12 @@ Image Analysis: Users can upload images to be analyzed, providing detailed descr
 API Request Handling with PHP: Uses PHP scripts to securely interact with the OpenAI API, keeping API keys protected.
 Implemented Technologies
 
+
 Frontend: Developed with HTML, CSS, and JavaScript.
 Backend: PHP scripts to handle API requests and process responses.
-OpenAI API: Integration with GPT-4 for natural language processing and image analysis.
+OpenAI API: Integration with GPT-4 / DALLE-E for natural language processing and image analysis.
 Application Usage
+
 
 Clone the Repository: Make a copy of the repository in your local environment.
 Configure API Keys: Ensure to set up your OpenAI API keys in the PHP scripts.
@@ -23,5 +25,6 @@ Generate and Analyze Images: Use the functions for image generation and analysis
 Contributing to the Project
 
 Contributions are welcome. If you have suggestions or want to improve the application, consider sending a pull request or creating an issue.
+
 
 ![Project screenshot](https://app.hundezonen.ch/docs/Captura%20dwe%20pantalla%202024-01-13%20a%20las%2015.50.45.png)
