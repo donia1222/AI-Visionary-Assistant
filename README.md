@@ -1,6 +1,6 @@
 Virtual Assistant and Image Analyzer with PHP Backend
 
-Respond, Analyze, Generate Images!
+Respond, Analyze and Generate Images!
 
 
 This project is an interactive web application that integrates a virtual assistant based on GPT-4 and an image analyzer, using a PHP backend to handle OpenAI API requests. The application allows users to interact with a virtual assistant, generate images from text, and analyze uploaded images.
